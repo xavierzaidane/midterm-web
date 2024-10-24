@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('img/banner3.jpg');
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /
+}
+
+.login-container {
+    max-width: 500px;
+    margin: 200px auto;
+    padding: 100px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input {
+    width: 94%;
+    padding: 15px;
+    margin: 5px 0 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+button {
+    width: 100%; 
+    padding: 20px; 
+    background-color: #002e57; 
+    color: white; 
+    border: none; 
+    border-radius: 4px;
+    font-size: 16px; 
+    cursor: pointer; 
+}
+
+
+button:hover {
+    background-color: #286090; 
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+    display: block;
+}
